@@ -80,11 +80,6 @@ class ZingController {
       res.json(data)
     })
   }
-  getLyric(req, res) {
-    ZingMp3.getLyric(req.query.id).then((data) => {
-      res.json(data)
-    })
-  }
 
   search(req, res) {
     ZingMp3.search(req.query.keyword).then((data) => {

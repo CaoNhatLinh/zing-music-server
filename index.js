@@ -15,9 +15,9 @@ app.use("/api", cors(), ZingMp3Router)
 
 // Page Error
 app.get("*", (req, res) => {
-  res.send("Nhập Sai Đường Dẫn! Vui Lòng Nhập Lại >.<")
+  res.send("Nhập Sai Đường Dẫn! Vui Lòng Nhập Lại")
 });
 
 app.listen(port, () => {
-  console.log(`Start server listen at http://localhost:${port}`)
+  console.log(`Start server success at port ${port}`)
 });

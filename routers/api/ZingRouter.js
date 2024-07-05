@@ -30,6 +30,24 @@ router.get("/artist", ZingController.getArtist)
 // getArtistSong
 router.get("/artistsong", ZingController.getArtistSong)
 
+
+
+
+// getListArtistPlaylist
+router.get("/artistplaylist", ZingController.getListArtistPlaylist)
+
+
+// getListArtistPlaylist
+router.get("/artistplaylist", ZingController.getListArtistPlaylist)
+// getSongsByArtistName
+router.get("/songsbyartistname", ZingController.getSongsByArtistName)
+// getPlaylistsByArtistName
+router.get("/playlistsbyartistname", ZingController.getPlaylistsByArtistName)
+// getVideosByArtistName
+router.get("/videosbyartistname", ZingController.getVideosByArtistName)
+
+
+
 // getLyric
 router.get("/lyric", ZingController.getLyric)
 
@@ -45,4 +63,6 @@ router.get("/categorymv", ZingController.getCategoryMV)
 // getVideo
 router.get("/video", ZingController.getVideo)
 
+//getSuggest
+router.get("/suggest", ZingController.getSuggest)
 module.exports = router
