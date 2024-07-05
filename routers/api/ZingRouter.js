@@ -31,8 +31,6 @@ router.get("/artist", ZingController.getArtist)
 router.get("/artistsong", ZingController.getArtistSong)
 
 
-
-
 // getListArtistPlaylist
 router.get("/artistplaylist", ZingController.getListArtistPlaylist)
 

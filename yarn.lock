@@ -1201,9 +1201,9 @@
   "resolved" "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
   "version" "4.0.0"
 
-"zingmp3-api-full@^1.0.14":
-  "integrity" "sha512-j7IjI6Igi8v0YwC0AMIiU5tatkCbiGXC5lcGlF3LQxWFCOwDSDEmLPBIfK/TcJU3XUgODEJykgeaer2DFt4M8A=="
-  "resolved" "https://registry.npmjs.org/zingmp3-api-full/-/zingmp3-api-full-1.0.14.tgz"
-  "version" "1.0.14"
+"zingmp3-api-full-v3@^3.0.0":
+  "integrity" "sha512-sAf9wePTS0EWGL8RPSv1RnhIauk5tF/9h8DAIoeT31NA0TJo8YvyJRPhXHNw7IHGK9QM0s0P5sfjSyZSUNduLg=="
+  "resolved" "https://registry.npmjs.org/zingmp3-api-full-v3/-/zingmp3-api-full-v3-3.0.0.tgz"
+  "version" "3.0.0"
   dependencies:
     "axios" "^0.24.0"

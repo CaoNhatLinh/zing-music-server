@@ -1,6 +1,5 @@
 import axios from "axios"
 import crypto from "crypto"
-
 class ZingMp3Api {
 
   public VERSION: string
